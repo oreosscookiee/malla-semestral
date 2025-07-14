@@ -29,7 +29,7 @@ const ramos = [
   // Semestre 4
   { codigo: "DER1040", nombre: "Constitucional IV", creditos: 3, prerrequisitos: ["DER1015", "DER1010", "DER1020", "DER1011", "DER1012", "DER1013"], semestre: 4 },
   { codigo: "DER1041", nombre: "Civil II", creditos: 4, prerrequisitos: ["DER1015", "DER1032", "DER1021", "DER1010", "DER1011", "DER1012", "DER1013"], semestre: 4 },
-  { codigo: "DER1042", nombre: "Procesal II", creditos: 4, prerrequisitos: ["DER1013", "DER1015", "DER1010", "DER1011", "DER1012", "DER1013"], semestre: 4 },
+  { codigo: "DER1042", nombre: "Procesal II", creditos: 4, prerrequisitos: ["DER1035", "DER1015", "DER1010", "DER1011", "DER1012", "DER1013"], semestre: 4 },
   { codigo: "DER1043", nombre: "Penal I", creditos: 4, prerrequisitos: ["DER1015", "DER1023", "DER1010", "DER1011", "DER1012", "DER1013"], semestre: 4 },
   { codigo: "ING9004", nombre: "Inglés IV", creditos: 2, prerrequisitos: ["ING9003"], semestre: 4 },
 
