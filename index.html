@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Curricular Interactiva</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #ffe4e1; /* Fondo rosado */
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #c71585;
+    }
+    .contador {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.2em;
+      color: #c71585;
+    }
+    .malla-container {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+    }
+    .semestre {
+      min-width: 250px;
+      background-color: #ffc0cb; /* Rosa pastel */
+      border-radius: 8px;
+      padding: 10px;
+    }
+    .semestre h2 {
+      text-align: center;
+      margin: 5px 0 10px;
+    }
+    .ramo {
+      background: #ffe4e1; /* Rosa pastel */
+      border: 2px solid #ffc0cb;
+      border-radius: 8px;
+      padding: 8px;
+      margin-bottom: 8px;
+      text-align: center;
+      cursor: pointer;
+      transition: background 0.3s;
+      font-size: 0.9em;
+    }
+    .ramo.aprobado {
+      background: #ff69b4; /* Rosa fuerte para aprobados */
+      color: white;
+    }
+    .ramo.bloqueado {
+      background: #f8f8f8;
+      color: #aaa;
+      border: 2px dashed #ccc;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+  <h1>Malla Curricular de Derecho</h1>
+  <div class="contador" id="contador"></div>
+  <div class="malla-container" id="contenedor"></div>
+  <script src="malla.js"></script>
+</body>
+</html>
