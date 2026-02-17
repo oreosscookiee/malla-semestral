@@ -35,7 +35,7 @@ const ramos = [
 
   // Semestre 5
   { codigo: "DER1050", nombre: "Administrativo I", creditos: 3, prerrequisitos: ["DER1030", "DER1040"], semestre: 5 },
-  { codigo: "DER1051", nombre: "Laboral I", creditos: 3, prerrequisitos: ["DER1015", "DER1032", "DER1010", "DER1012", "DER1013"], semestre: 5 },
+  { codigo: "DER1051", nombre: "Laboral I", creditos: 3, prerrequisitos: ["DER1015", "DER1032", "DER1010", "DER1011", "DER1012", "DER1013"], semestre: 5 },
   { codigo: "DER1052", nombre: "Económico I", creditos: 3, prerrequisitos: ["DER1040"], semestre: 5 },
   { codigo: "DER1053", nombre: "Civil III", creditos: 4, prerrequisitos: ["DER1032", "DER1041", "DER1021"], semestre: 5 },
   { codigo: "DER1055", nombre: "Penal II", creditos: 4, prerrequisitos: ["DER1043"], semestre: 5 },
